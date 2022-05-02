@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="view__indicator__label__default_size">12dp</dimen>
+    <dimen name="view__indicator__label__default_margin_horizontal">4dp</dimen>
+</resources>

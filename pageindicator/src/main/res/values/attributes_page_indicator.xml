@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PageIndicator">
+        <!--INDICATOR-->
+        <attr name="drawableBackgroundIndicator" format="reference" />
+        <attr name="colorSelectedPageIndicator" format="color" />
+        <attr name="colorUnselectedPageIndicator" format="color" />
+        <attr name="sizeIndicator" format="dimension" />
+        <attr name="marginHorizontalIndicator" format="dimension" />
+        <attr name="quantityIndicators" format="integer" />
+    </declare-styleable>
+</resources>
