@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ParentFragment">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/fragment_parent__viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <es.avifer.pageindicator.PageIndicator
+        android:id="@+id/fragment_parent__page_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_marginBottom="56dp"
+        app:colorUnselectedPageIndicator="@color/teal_200"
+        app:colorSelectedPageIndicator="@color/teal_700"
+        app:drawableBackgroundIndicator="@drawable/indicator_drawable"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:marginHorizontalIndicator="4dp"
+        app:quantityIndicators="3"
+        app:sizeIndicator="8dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
