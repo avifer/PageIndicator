@@ -17,7 +17,7 @@
 
     <es.avifer.pageindicator.PageIndicator
         android:id="@+id/fragment_parent__page_indicator"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="24dp"
         android:layout_marginBottom="56dp"
         app:colorUnselectedPageIndicator="@color/teal_200"
